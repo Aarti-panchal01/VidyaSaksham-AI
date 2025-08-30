@@ -7,7 +7,7 @@ export const HeroSection = () => {
     <section className="hero-section py-20">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
+          <div className="space-y-6 bg-black/30 backdrop-blur-sm p-8 rounded-2xl border border-white/20">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 shadow-lg">
               <Sparkles className="h-4 w-4 mr-2 text-white" />
               <span className="text-sm font-medium text-white">AI-Powered Study Companion for Indian Students</span>
