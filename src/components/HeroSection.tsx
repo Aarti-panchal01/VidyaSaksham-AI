@@ -4,67 +4,67 @@ import heroImage from "@/assets/hero-education.jpg";
 
 export const HeroSection = () => {
   return (
-    <section className="hero-section py-20 text-primary-foreground">
+    <section className="hero-section py-20">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20">
-              <Sparkles className="h-4 w-4 mr-2" />
-              <span className="text-sm font-medium">AI-Powered Study Companion for Indian Students</span>
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 shadow-lg">
+              <Sparkles className="h-4 w-4 mr-2 text-white" />
+              <span className="text-sm font-medium text-white">AI-Powered Study Companion for Indian Students</span>
             </div>
             
-            <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
+            <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-white">
               Master Every Subject with{" "}
-              <span className="bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-yellow-300 via-pink-300 to-cyan-300 bg-clip-text text-transparent">
                 VidyaSaksham AI
               </span>
             </h1>
             
-            <p className="text-xl text-white/80 leading-relaxed max-w-lg">
+            <p className="text-xl text-white/95 leading-relaxed max-w-lg font-medium">
               Get instant doubt solving, personalized exam prep, and interactive learning in your language. 
               Built specifically for NEET, JEE, CBSE, and competitive exams.
             </p>
             
-            <div className="space-y-3 text-white/90">
+            <div className="space-y-4 text-white">
               <div className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-success rounded-full"></div>
-                <span>✓ Personalized learning paths for every student</span>
+                <div className="w-3 h-3 bg-green-400 rounded-full shadow-lg"></div>
+                <span className="font-medium">✓ Personalized learning paths for every student</span>
               </div>
               <div className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-warning rounded-full"></div>
-                <span>✓ Instant doubt solving in 5+ Indian languages</span>
+                <div className="w-3 h-3 bg-yellow-400 rounded-full shadow-lg"></div>
+                <span className="font-medium">✓ Instant doubt solving in 5+ Indian languages</span>
               </div>
               <div className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-secondary rounded-full"></div>
-                <span>✓ NEET, JEE, CBSE & board exam preparation</span>
+                <div className="w-3 h-3 bg-blue-400 rounded-full shadow-lg"></div>
+                <span className="font-medium">✓ NEET, JEE, CBSE & board exam preparation</span>
               </div>
               <div className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-purple rounded-full"></div>
-                <span>✓ Progress tracking with detailed analytics</span>
+                <div className="w-3 h-3 bg-purple-400 rounded-full shadow-lg"></div>
+                <span className="font-medium">✓ Progress tracking with detailed analytics</span>
               </div>
             </div>
             
             <div className="flex flex-wrap gap-4 pt-6">
-              <Button size="lg" className="bg-white text-primary hover:bg-white/90 educational-button text-lg px-8 py-4 h-auto">
+              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 font-bold text-lg px-8 py-4 h-auto shadow-2xl">
                 Start Learning Free
               </Button>
-              <Button variant="outline" size="lg" className="border-white/30 text-white hover:bg-white/10 text-lg px-8 py-4 h-auto">
+              <Button variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white/20 font-bold text-lg px-8 py-4 h-auto">
                 Try Live Demo
               </Button>
             </div>
             
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="text-center">
-                <div className="text-3xl font-bold">50K+</div>
-                <div className="text-sm text-white/70">Students Learning</div>
+                <div className="text-3xl font-bold text-white">Demo</div>
+                <div className="text-sm text-white/80 font-medium">Mode</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold">98%</div>
-                <div className="text-sm text-white/70">Success Rate</div>
+                <div className="text-3xl font-bold text-white">AI</div>
+                <div className="text-sm text-white/80 font-medium">Powered</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold">24/7</div>
-                <div className="text-sm text-white/70">AI Support</div>
+                <div className="text-3xl font-bold text-white">24/7</div>
+                <div className="text-sm text-white/80 font-medium">Available</div>
               </div>
             </div>
           </div>

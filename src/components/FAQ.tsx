@@ -47,24 +47,24 @@ export const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center space-y-6 mb-12">
-            <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
-            <p className="text-muted-foreground text-lg">
+            <h2 className="text-3xl font-bold text-primary">Frequently Asked Questions</h2>
+            <p className="text-muted-foreground text-lg font-medium">
               Got questions? We've got answers! Find everything you need to know about VidyaSaksham AI.
             </p>
           </div>
 
           <Card className="lesson-card border-0">
             <CardHeader>
-              <CardTitle className="text-center gradient-text">Common Questions</CardTitle>
+              <CardTitle className="text-center text-2xl font-bold text-primary">Common Questions</CardTitle>
             </CardHeader>
             <CardContent>
               <Accordion type="single" collapsible className="w-full">
                 {faqs.map((faq, index) => (
                   <AccordionItem key={index} value={`item-${index}`}>
-                    <AccordionTrigger className="text-left font-medium">
+                    <AccordionTrigger className="text-left font-semibold text-lg text-primary hover:text-primary/80">
                       {faq.question}
                     </AccordionTrigger>
-                    <AccordionContent className="text-muted-foreground leading-relaxed">
+                    <AccordionContent className="text-foreground leading-relaxed font-medium text-base">
                       {faq.answer}
                     </AccordionContent>
                   </AccordionItem>

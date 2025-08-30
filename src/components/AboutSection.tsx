@@ -42,19 +42,18 @@ export const AboutSection = () => {
               <h2 className="text-3xl font-bold">
                 Built by Students, for Students
               </h2>
-              <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <div className="space-y-4 text-foreground leading-relaxed font-medium">
                 <p>
-                  VidyaSaksham AI was born from a simple observation: every Indian student deserves quality education, 
-                  regardless of their location, language, or economic background.
+                  VidyaSaksham AI is a prototype demonstration of an AI-powered learning platform designed 
+                  for Indian students across all educational levels.
                 </p>
                 <p>
-                  Our founders, former NEET and JEE aspirants themselves, experienced firsthand the challenges 
-                  of accessing quality doubt-solving and personalized guidance. They spent countless hours traveling 
-                  to coaching centers, struggling with language barriers, and feeling lost in one-size-fits-all approaches.
+                  This demo showcases how artificial intelligence can personalize education, provide instant 
+                  doubt solving, and make quality learning accessible in multiple Indian languages.
                 </p>
                 <p>
-                  That's when they decided to build something different - an AI-powered learning companion that 
-                  understands Indian education, speaks your language, and adapts to your unique learning style.
+                  Experience the potential of AI in education through this interactive prototype that 
+                  demonstrates multi-language support, adaptive learning, and personalized tutoring capabilities.
                 </p>
               </div>
               <Button className="educational-button">
@@ -67,18 +66,18 @@ export const AboutSection = () => {
                 <div className="text-center space-y-4">
                   <div className="text-6xl mb-4">🚀</div>
                   <h3 className="text-2xl font-bold gradient-text">Our Mission</h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    To democratize quality education for every Indian student by making AI-powered learning 
-                    accessible, affordable, and effective in their preferred language.
+                  <p className="text-foreground leading-relaxed font-medium">
+                    To demonstrate how AI can democratize quality education for every Indian student 
+                    by making learning accessible and effective in their preferred language.
                   </p>
                   <div className="grid grid-cols-2 gap-4 pt-4">
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-primary">2023</div>
-                      <div className="text-sm text-muted-foreground">Founded</div>
+                      <div className="text-2xl font-bold text-primary">Demo</div>
+                      <div className="text-sm text-muted-foreground">Prototype</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-secondary">50K+</div>
-                      <div className="text-sm text-muted-foreground">Students Helped</div>
+                      <div className="text-2xl font-bold text-secondary">AI</div>
+                      <div className="text-sm text-muted-foreground">Powered</div>
                     </div>
                   </div>
                 </div>
@@ -117,22 +116,19 @@ export const AboutSection = () => {
             </div>
           </div>
 
-          {/* Team CTA */}
-          <div className="text-center mt-16 p-8 rounded-2xl bg-[var(--gradient-hero)] text-primary-foreground">
-            <h3 className="text-2xl font-bold mb-4">Join Our Growing Community</h3>
-            <p className="text-lg opacity-90 mb-6 max-w-2xl mx-auto">
-              Be part of the educational revolution. Connect with us on social media and stay updated 
-              with the latest features and success stories.
+          {/* Prototype CTA */}
+          <div className="text-center mt-16 p-8 rounded-2xl bg-gradient-to-br from-indigo-500 via-purple-600 to-pink-500 text-white shadow-2xl">
+            <h3 className="text-2xl font-bold mb-4 text-white">Explore the Prototype</h3>
+            <p className="text-lg mb-6 max-w-2xl mx-auto text-white font-medium">
+              Experience the potential of AI-powered education through this interactive demonstration. 
+              Try the features and see how technology can transform learning.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Button variant="outline" className="border-white/30 text-white hover:bg-white/10">
-                Follow on Instagram
+              <Button variant="outline" className="border-2 border-white text-white hover:bg-white/20 font-bold">
+                Try Demo Features
               </Button>
-              <Button variant="outline" className="border-white/30 text-white hover:bg-white/10">
-                Connect on LinkedIn
-              </Button>
-              <Button variant="outline" className="border-white/30 text-white hover:bg-white/10">
-                Join Discord Community
+              <Button variant="outline" className="border-2 border-white text-white hover:bg-white/20 font-bold">
+                Learn More
               </Button>
             </div>
           </div>

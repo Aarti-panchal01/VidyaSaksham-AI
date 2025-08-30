@@ -6,40 +6,22 @@ import { Star } from "lucide-react";
 export const Testimonials = () => {
   const testimonials = [
     {
-      name: "Priya Sharma",
-      grade: "Class 12, NEET Aspirant",
-      location: "Delhi",
-      text: "VidyaSaksham AI helped me understand complex Biology concepts in Hindi. My NEET mock scores improved by 40% in just 2 months!",
-      subject: "Biology",
-      improvement: "+40% Score",
-      avatar: "PS"
+      name: "Demo User 1",
+      grade: "Student",
+      location: "India",
+      text: "This is a prototype demonstration of VidyaSaksham AI's capabilities for personalized learning.",
+      subject: "Demo",
+      improvement: "Prototype",
+      avatar: "D1"
     },
     {
-      name: "Arjun Patel",
-      grade: "Class 11, JEE Preparation", 
-      location: "Gujarat",
-      text: "The instant doubt solving feature is amazing! I can ask Physics questions in Gujarati and get clear explanations with examples.",
-      subject: "Physics",
-      improvement: "Top 5% Rank",
-      avatar: "AP"
-    },
-    {
-      name: "Kavya Reddy",
-      grade: "Class 10, CBSE",
-      location: "Hyderabad",
-      text: "Mathematics was my weakest subject. Now I solve problems confidently thanks to step-by-step AI explanations in Telugu.",
-      subject: "Mathematics", 
-      improvement: "A+ Grade",
-      avatar: "KR"
-    },
-    {
-      name: "Rohit Kumar",
-      grade: "Class 12, UPSC Preparation",
-      location: "Bihar",
-      text: "The personalized study plan and progress tracking helped me stay focused. The AI adapts to my learning pace perfectly.",
-      subject: "General Studies",
-      improvement: "Consistent Progress",
-      avatar: "RK"
+      name: "Demo User 2",
+      grade: "Student", 
+      location: "India",
+      text: "Sample testimonial showcasing the multi-language AI tutoring features in development.",
+      subject: "Demo",
+      improvement: "Prototype",
+      avatar: "D2"
     }
   ];
 
@@ -47,9 +29,9 @@ export const Testimonials = () => {
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-6 mb-12">
-          <h2 className="text-3xl font-bold">What Students Say About Us</h2>
+          <h2 className="text-3xl font-bold text-primary">Prototype Testimonials</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Real stories from students who've transformed their learning journey with VidyaSaksham AI
+            Sample testimonials demonstrating VidyaSaksham AI's potential impact on student learning
           </p>
         </div>
 
@@ -101,7 +83,7 @@ export const Testimonials = () => {
         <div className="text-center mt-12">
           <div className="inline-flex items-center space-x-2 text-sm text-muted-foreground">
             <Star className="h-4 w-4 fill-warning text-warning" />
-            <span>4.9/5 average rating from 10,000+ students</span>
+            <span>Prototype demonstration - Sample testimonials</span>
           </div>
         </div>
       </div>

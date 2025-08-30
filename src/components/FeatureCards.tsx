@@ -73,17 +73,17 @@ export const FeatureCards = () => {
       })}
       </div>
 
-      <div className="mt-12 p-8 rounded-2xl bg-[var(--gradient-hero)] text-center">
+      <div className="mt-12 p-8 rounded-2xl bg-gradient-to-br from-blue-500 via-purple-600 to-pink-500 text-center shadow-2xl">
         <h3 className="text-2xl font-bold mb-4 text-white">Ready to Transform Your Learning?</h3>
-        <p className="text-lg mb-6 max-w-2xl mx-auto text-white/90">
-          Join thousands of students already using VidyaSaksham AI to excel in their studies. 
+        <p className="text-lg mb-6 max-w-2xl mx-auto text-white font-medium">
+          Experience the power of AI-driven learning with VidyaSaksham AI. 
           Ask your first question or generate a quiz to get started!
         </p>
-        <div className="flex flex-wrap justify-center gap-4 text-sm text-white/80">
-          <span>✓ Free to start</span>
+        <div className="flex flex-wrap justify-center gap-4 text-sm text-white font-medium">
+          <span>✓ Prototype Demo</span>
           <span>✓ NCERT aligned</span>
-          <span>✓ Works offline</span>
-          <span>✓ Progress tracking</span>
+          <span>✓ AI powered</span>
+          <span>✓ Multi-language</span>
         </div>
       </div>
     </div>;
